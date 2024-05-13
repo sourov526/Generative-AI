@@ -16,3 +16,5 @@ conda config --set auto_activate_base False
 conda create -p venv python=3.9 -y    # you can use any version of python
 # activate the venv
 conda activate venv/
+# deactivate the env
+conda deactivate
